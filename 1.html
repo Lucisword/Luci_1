@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Sunlight: An Aquatic Chemosynthetic World</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+<body>
+    <header>
+        <h1>Beyond Sunlight</h1>
+        <h2>An Aquatic Chemosynthetic World</h2>
+    </header>
+    <main>
+        <section id="description">
+            <p>Welcome to a world where life thrives without sunlight! Discover the fascinating organisms that harness chemical energy from their environment.</p>
+        </section>
+        
+        <section id="organisms">
+            <h3>Chemosynthetic Organisms</h3>
+            <ul id="organism-list">
+                <li>Deep-sea Hydrothermal Vent Tubeworms</li>
+                <li>Chemoautotrophic Bacteria</li>
+                <li>Giant Tube Worms</li>
+                <li>Archaea</li>
+                <li>Other Unique Species</li>
+            </ul>
+        </section>
+        
+        <button id="random-fact-btn">Show Random Fact</button>
+        <p id="random-fact" class="hidden"></p>
+
+        <!-- New Interactive Sections -->
+        <div class="interactive-section">
+            <h3>Explore the Underwater World</h3>
+            <p>Click on the topics below to learn more!</p>
+            <div class="cards">
+                <div class="card" onclick="toggleContent('hydrothermal-vents')">
+                    <h4>Hydrothermal Vents</h4>
+                    <p>Discover how geothermal power can be harnessed.</p>
+                </div>
+                <div class="card" onclick="toggleContent('underwater-sea-life')">
+                    <h4>Underwater Sea Life</h4>
+                    <p>Explore new life forms and ecosystems.</p>
+                </div>
+                <div class="card" onclick="toggleContent('sea-farming')">
+                    <h4>Sea Farming</h4>
+                    <p>Sustainable food sources from the ocean.</p>
+                </div>
+                <div class="card" onclick="toggleContent('chemical-construction')">
+                    <h4>Underwater Construction</h4>
+                    <p>Building underwater habitats.</p>
+                </div>
+                <div class="card" onclick="toggleContent('advanced-machinery')">
+                    <h4>Advanced Machinery</h4>
+                    <p>Technologies for underwater living.</p>
+                </div>
+                <div class="card" onclick="toggleContent('desalination-plants')">
+                    <h4>Desalination Plants</h4>
+                    <p>Creating drinking water from the sea.</p>
+                </div>
+                <div class="card" onclick="toggleContent('oxygen-production')">
+                    <h4>Oxygen Production</h4>
+                    <p>Generating oxygen using hydrothermal vent heat.</p>
+                </div>
+                <div class="card" onclick="toggleContent('navigation')">
+                    <h4>Navigating Underwater</h4>
+                    <p>Technologies for underwater navigation.</p>
+                </div>
+                <div class="card" onclick="toggleContent('challenges')">
+                    <h4>Challenges of Underwater Life</h4>
+                    <p>Understanding the hurdles we face.</p>
+                </div>
+                <div class="card" onclick="toggleContent('main-features')">
+                    <h4>Main Features of Underwater Worlds</h4>
+                    <p>What defines this unique environment?</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="content-display" class="hidden">
+            <h3 id="content-title"></h3>
+            <img id="content-image" src="" alt="" />
+            <p id="content-description"></p>
+            <video id="content-video" controls>
+                <source id="video-source" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button onclick="closeContent()">Close</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 ExoThinnkers</p>
+    </footer>
+    <script src="3.js"></script>
+</body>
+</html>
