@@ -47,6 +47,7 @@ function toggleContent(section) {
             title: 'Underwater Sea Life and New Life Forms',
             image: '15.png',
             description: 'The deep ocean is home to many unexplored species, showcasing biodiversity that thrives in extreme conditions.',
+            video: 'coro.mp4',
          
         },
         'sea-farming': {
