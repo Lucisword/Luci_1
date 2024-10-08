@@ -54,7 +54,7 @@ function toggleContent(section) {
             title: 'Sea Farming for Human Food',
             image: '\crop.jpg',
             description: 'Aquaculture and marine farming can provide sustainable food sources for a growing human population.',
-         
+            video: 'soro.mp4'
         },
         'chemical-construction': {
             title: 'Using Chemicals for Underwater Structures',
